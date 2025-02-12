@@ -85,7 +85,7 @@ export default function Navbar() {
         </div>
 
         {/* Search Bar and Icons */}
-        <div className='flex items-center'>
+        <div className='flex items-center gap-x-2'>
           {/* Condition for Tablet and Large Screens */}
           {(isTablet || isLg) ? (
             <>
